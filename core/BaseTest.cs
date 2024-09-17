@@ -1,7 +1,7 @@
 using System.Diagnostics;
-using _365Test.core.api;
 using Microsoft.Extensions.Configuration;
 using NUnit.Framework;
+using ApiClient = _365Test.core.api.ApiClient;
 
 namespace _365Test.core;
 

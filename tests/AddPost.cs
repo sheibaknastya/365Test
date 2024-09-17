@@ -24,10 +24,9 @@ public class AddPost : BaseTest
     [AllureStep("Get random user's ID")]
     private int GetRandomUserId()
     {
-        var response = ApiClient.GetUsers(); 
-        var users = JsonSerializer.Deserialize<User[]>(response.Content!);
+        var user = ApiClient.GetRandomUser(); 
         
-        return users![new Random().Next(0, 9)].id;
+        return user.id;
     }
 
     [AllureStep("Create post using random user's ID")]
