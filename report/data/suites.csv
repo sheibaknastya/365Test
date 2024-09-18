@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","84","Get random user's email","","Wed Sep 18 13:39:23 MSK 2024","passed","Wed Sep 18 13:39:23 MSK 2024","","","GetUser","GetUserEmail"
+"","573","Add post to random user","","Wed Sep 18 13:39:22 MSK 2024","passed","Wed Sep 18 13:39:23 MSK 2024","","","AddPost","AddUserPost"
+"","192","Check random user's posts","","Wed Sep 18 13:39:23 MSK 2024","passed","Wed Sep 18 13:39:23 MSK 2024","","","CheckPosts","CheckUserPost"
