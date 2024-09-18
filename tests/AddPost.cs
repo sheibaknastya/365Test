@@ -1,7 +1,5 @@
 using System.Net;
-using System.Text.Json;
 using _365Test.core;
-using _365Test.core.entities;
 using Allure.NUnit;
 using Allure.NUnit.Attributes;
 using NUnit.Framework;
